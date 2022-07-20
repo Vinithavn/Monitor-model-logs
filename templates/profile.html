@@ -1,0 +1,56 @@
+
+{% block content %}
+<h1 class="title">
+    Welcome,{{name}}!
+	
+
+<body>
+<br>
+	<br>
+	<form method="POST" action="/profile/{{name}}"  class="input">
+			<label for="session">Select the session:</label>
+			<select name="session" id="session" >
+			<br>
+			<ul>
+				{% for session_n in sessions %}
+					<option value="{{session_n}}">{{session_n}}</option>
+				 
+				{% endfor %}
+			</ul>
+			</select> 
+		
+		<br>
+		<br>
+		
+		<select name="metric" id="metric" >
+			<option value="precision">Precision</option>
+			<option value="recall">Recall</option>
+			<option value="accuracy">Accuracy</option>
+			<option value="f1 score">F1 score</option>
+			<option value="balanced accuracy">Balanced accuracy</option>
+			<option value="confusion matrix">Confusion Matrix</option>
+				 
+			</ul>
+			</select> 	
+			
+		</div>
+		<br>
+		<br>
+		<div class= "input">
+        <button type="submit" class="btn btn-primary btn-block btn-large">See Logs</button>
+		</div>
+    </form>
+
+</ul>
+</body>
+</h1>
+
+{{out}} 
+
+<br>
+<br>
+<img src={{imgurl}} alt="" width="60%" style="padding:0 5% 0 5%;">
+
+
+
+{% endblock %}
