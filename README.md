@@ -5,6 +5,8 @@ Monitor the metrics of a model remotely, while training the model
 Please follow the below steps:
 
   1. Login to our website or Create a new account here: http://139.162.6.184:5000/
+  ![app](https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/Screenshot_2022-08-30-15-59-19-17_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
+  
   2. Call the API from your training script by following these steps
  
       a. Install the monitor-logs package using
@@ -21,9 +23,9 @@ Please follow the below steps:
       
         Epoch_num - Epoch num from the training
         
-        Actual - Ground truth labels
+        Actual - 1-d array of ground truth labels
         
-        Preds - Predicted labels
+        Preds - 1-d array of predicted labels
         
         Username - username of the user
         
