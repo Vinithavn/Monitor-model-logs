@@ -6,7 +6,9 @@ Please follow the below steps:
 
   1. Login to our website or Create a new account here:
   2. Call the API from your training script by following these steps
+ 
       a. Install the monitor-logs package using
+      !(C:\Users\Vinitha\Downloads\carbon (3).png)
       b. Import the package
       c. Call the api from the training script using 
         Epoch_num - Epoch num from the training
