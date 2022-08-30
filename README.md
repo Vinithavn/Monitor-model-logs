@@ -4,7 +4,7 @@ Monitor the metrics of a model remotely, while training the model
 
 Please follow the below steps:
 
-  1. Login to our website or Create a new account here:
+  1. Login to our website or Create a new account here: http://139.162.6.184:5000/
   2. Call the API from your training script by following these steps
  
       a. Install the monitor-logs package using
@@ -29,7 +29,7 @@ Please follow the below steps:
         
         Session_name - Name of the session(can be defined inside the training script)
 
-  3. Once the model starts training, go to this website 
+  3. Once the model starts training, go to this website: http://139.162.6.184:5000/
   4. Select your session name, and metric to view the model logs
 
 
