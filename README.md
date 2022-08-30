@@ -9,7 +9,8 @@ Please follow the below steps:
  
       a. Install the monitor-logs package using
       
-      !(https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/carbon%20(3).png)
+      ![sa](https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/carbon%20(3).png)
+      
       b. Import the package
       c. Call the api from the training script using 
         Epoch_num - Epoch num from the training
