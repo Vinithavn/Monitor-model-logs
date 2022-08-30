@@ -9,7 +9,7 @@ Please follow the below steps:
  
       a. Install the monitor-logs package using
       
-      ![intall](C:\Users\Vinitha\Downloads\carbon (3).png)
+      !(utils\carbon (3).png)
       b. Import the package
       c. Call the api from the training script using 
         Epoch_num - Epoch num from the training
