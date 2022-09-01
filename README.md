@@ -14,15 +14,14 @@ Please follow the below steps:
       
       ```pip install monitor-logs```
       
-      ![install](https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/carbon%20(4).png)
       
       b. Import the package
       
-      ![import](https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/carbon%20(5).png)
+      ```from monitor_logs import api```
       
       c. Call the api from the training script using
       
-      ![call](https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/carbon%20(3).png)
+      ```api.call(epoch_num,actual,preds,username,session_name
       
         Epoch_num - Epoch num from the training
         
@@ -32,7 +31,7 @@ Please follow the below steps:
         
         Username - username of the user
         
-        Session_name - Name of the session(can be defined inside the training script)
+        Session_name - Name of the session(this can be defined inside the training script)
 
   3. Once the model starts training, go to this website: http://139.162.6.184:5000/
   4. Select your session name, and metric to view the model logs
