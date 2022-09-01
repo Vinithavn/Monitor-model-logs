@@ -3,7 +3,7 @@ Monitor the metrics of a model remotely, while training the model
 
 Please follow the below steps:
 
-  1. Login to our website or Create a new account ![here] (http://139.162.6.184:5000/)
+  1. Login to our website or Create a new account [here](http://139.162.6.184:5000/)
   
   ![app](https://github.com/Vinithavn/Monitor-model-logs/blob/master/Screenshot_2022-08-30-15-59-19-17_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
   
@@ -40,7 +40,7 @@ Please follow the below steps:
           - session_name shouldn't start with special characters.
        ```
 
-  3. Once the model starts training, go to this website: http://139.162.6.184:5000/
+  3. Once the model starts training, go to this [website](http://139.162.6.184:5000/)
   4. Select your session name, and metric to view the model logs
 
 
