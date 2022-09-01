@@ -12,6 +12,8 @@ Please follow the below steps:
  
       a. Install the monitor-logs package using
       
+      ```pip install monitor-logs```
+      
       ![install](https://github.com/Vinithavn/Monitor-model-logs/blob/master/utils/carbon%20(4).png)
       
       b. Import the package
