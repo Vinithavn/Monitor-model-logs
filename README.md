@@ -21,7 +21,9 @@ Please follow the below steps:
       
       c. Call the api from the training script using
       
-      ```api.call(epoch_num,actual,preds,username,session_name
+      ```api.call(epoch_num,actual,preds,username,session_name```
+      
+      ```
       
         Epoch_num - Epoch num from the training
         
@@ -31,7 +33,7 @@ Please follow the below steps:
         
         Username - username of the user
         
-        Session_name - Name of the session(this can be defined inside the training script)
+        Session_name - Name of the session(this can be defined inside the training script)```
 
   3. Once the model starts training, go to this website: http://139.162.6.184:5000/
   4. Select your session name, and metric to view the model logs
