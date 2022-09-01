@@ -33,7 +33,12 @@ Please follow the below steps:
         
         Username - username of the user
         
-        Session_name - Name of the session(this can be defined inside the training script)```
+        Session_name -  Name of the session (User Defined).
+        
+          - Since you need the session name to read the logs, make sure to give unique and readable name.
+          - Please make sure to follow naming convention standard.
+          - Special characters such as underscore, hash, dollar, asterisk can be used.
+          - session_name shouldn't start with special characters.```
 
   3. Once the model starts training, go to this website: http://139.162.6.184:5000/
   4. Select your session name, and metric to view the model logs
