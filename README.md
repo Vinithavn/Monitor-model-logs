@@ -1,7 +1,6 @@
 # Monitor-model-logs
 Monitor the metrics of a model remotely, while training the model 
 
-
 Please follow the below steps:
 
   1. Login to our website or Create a new account here: http://139.162.6.184:5000/
@@ -38,7 +37,8 @@ Please follow the below steps:
           - Since you need the session name to read the logs, make sure to give unique and readable name.
           - Please make sure to follow naming convention standard.
           - Special characters such as underscore, hash, dollar, asterisk can be used.
-          - session_name shouldn't start with special characters.```
+          - session_name shouldn't start with special characters.
+       ```
 
   3. Once the model starts training, go to this website: http://139.162.6.184:5000/
   4. Select your session name, and metric to view the model logs
